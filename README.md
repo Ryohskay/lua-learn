@@ -44,3 +44,4 @@ When un-commenting such a code block commented out, adding another `-` at the be
 - when exiting, you must always call `os.exit()`, not `exit` or `os.exit`.
 - Variable names starting with an underscore `_` followed by capital letters like `_VERSION` are reserved, so they should be avoided.
 - Lua is case-sensitive.
+- Line endings can be a newline, but it can also be marked with `;`
