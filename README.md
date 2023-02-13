@@ -14,4 +14,6 @@ When calling `dofile("lib1.lua")` in the interactive mode, it loads functions fr
 from the next line.
 
 # Other notes
-when exiting, you must always call `os.exit()`, not `exit` or `os.exit`.
+- when exiting, you must always call `os.exit()`, not `exit` or `os.exit`.
+- Variable names starting with an underscore `_` followed by capital letters like `_VERSION` are reserved, so they should be avoided.
+- Lua is case-sensitive.
