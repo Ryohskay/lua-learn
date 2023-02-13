@@ -1,7 +1,8 @@
 -- Boolean example
-
+-- nil precedes others, but a string precedes `false`
 print(4 and 5)  --> 5
 print(nil and 13)  --> nil
+print(false or "hi")  --> "hi"
 
 
 -- boolean in Lua:
