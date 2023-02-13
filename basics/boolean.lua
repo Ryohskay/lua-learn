@@ -19,3 +19,9 @@ if b then -- does not pass bcz b is nil
 else
     print("Oh là là!")  -- this is printed
 end
+
+-- idiom: `x = x or v`
+-- equiv. to: `if not x then x = v end;`
+x = 5
+x = x or 3  -- if x is not set, sets x to 3. if x is set, preserve the value.
+print(x)
