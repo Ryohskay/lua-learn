@@ -7,3 +7,6 @@ Codes are meant for `Lua 5.4`.
 When running the file *prog.lua*, execute it with: `lua -i prog.lua`.
 
 This way it enters the interactive mode right after executing the file - it's extremely useful for debugging or testing.
+
+# Other notes
+when exiting, you must always call `os.exit()`, not `exit` or `os.exit`.
